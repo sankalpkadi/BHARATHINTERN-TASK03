@@ -1,5 +1,5 @@
 # BHARATHINTERN-TASK03
-#Using HTML
+#Using HTML,CSS,NODE.JS in MANGODB
 <!DOCTYPE html>
 <html>
 <head>
@@ -55,8 +55,8 @@
 </body>
 </html>
 
-#Using CSS
-body {
+body 
+{
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -107,8 +107,6 @@ ul {
 li {
   margin-bottom: 5px;
 }
-
-#Using NDE.JS In MANGDB
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
